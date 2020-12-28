@@ -1,0 +1,9 @@
+package inherintance
+
+class Kepala Sekolah: Karyawan() {
+    var mapel: String = ""
+    
+    fun mengajar(){
+        println("Saya bekerja untuk sekolah $pekerjaan")
+    }
+}

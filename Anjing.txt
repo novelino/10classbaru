@@ -1,0 +1,11 @@
+package polymorphism
+
+class Anjing: Hewan() {
+    var kaki: Int = 0
+    var pelihara: String = ""
+    var ekor: String = ""
+    
+    override fun deskripsi() {
+        println("Anjing adalah hewan berkaki $kaki, berekor $ekor, dan termasuk Hewan yang biasa dipelihara $pelihara")
+    }
+}

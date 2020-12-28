@@ -1,0 +1,10 @@
+package polymorphism
+
+open class Manusia {
+    var mata: String = ""
+    var nyawa: String =""
+    
+    open fun deskripsi() {
+        println("Manusia yang memiliki $mata dan juga bernyawa $nyawa")
+    }
+}
